@@ -35,7 +35,20 @@ You can run the file .ipynb alone or run the geolock_script.py.
   
 Each python file/notebook have automatic save for the images in a determinate path in the project directory.
 
+### Configurations
+#### Map Configuration
+1. insert your dataset .csv or .txt inside data/ <br>
+	The data shuold be like this: <br>
+	LAT,LNG <br>
+	45.7787739,12.0604744 <br>
+	45.77895,12.0606032 <br>
+2. Map Configuration
+	- insert the map from Google Maps inside data_city
+	- insert the the extremes of the map coordinates: 
+	  lat_max, lat_min, lng_max, lng_min
 
+#### Path configuration
+You can change the input and the output paths manually inside the scrips. 
 
 ### Args
 /GeoLock$ python3 geolock.py -s PD1 -c 4
