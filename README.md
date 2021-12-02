@@ -20,12 +20,12 @@ You can run the file .ipynb alone or run the geolock_script.py.
 3. Start the script or the notebook.
 
 
-### If you use  __client_geolocalization_and_clustering.ipynb__
+### If you use  __geolocalization_and_clustering.ipynb__
   
   This file it's a Notebook that explain each step, and can visualize inline the results.
   It useful to uderstand the process of the algorithm for the data extraction and visualization.
   
-### If you use __geolock_script.py__ 
+### If you use __geolock.py__ 
   
   It's a script that import __data_cities.py__ for the data of the different cities.
   with this script you have choice for interact through the terminal and insert the different
