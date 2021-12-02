@@ -53,8 +53,8 @@ usage: geolock3.py [-h] -s  -c
 
 Generate client cluster map
 
-optional arguments:
-  -h, --help       show this help message and exit
-  -s , --store     Code Store
-  -c , --cluster   Number of Clusters
+optional arguments: <br>
+  -h --help      help <br> 
+  -s --store     Code Store  (see data_cities.py) <br>
+  -c --cluster   Number of Clusters <br>
   
